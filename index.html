@@ -245,12 +245,28 @@
   <!-- Contact Section -->
   <section id="contact" class="py-12 px-4 container mx-auto bg-gray-800 rounded-lg">
     <h2 class="text-2xl font-semibold mb-6 text-center text-orange-300">Contact</h2>
-    <form class="max-w-md mx-auto">
-      <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500" />
-      <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500" />
-      <textarea placeholder="Your Message" class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500"></textarea>
-      <button type="submit" class="px-6 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600">Send</button>
-    </form>
+    <form action="https://formsubmit.co/angelicafredie@gmail.com" method="POST" class="max-w-md mx-auto">
+  <!-- Disable Captcha & Redirect to thank you page -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://angelicafredie.github.io/My-portfolio/">
+
+  <!-- Input Fields -->
+  <input type="text" name="name" placeholder="Your Name" required
+    class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500" />
+
+  <input type="email" name="email" placeholder="Your Email" required
+    class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500" />
+
+  <textarea name="message" placeholder="Your Message" required
+    class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500"></textarea>
+
+  <!-- Send Button -->
+  <button type="submit"
+    class="px-6 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition-all duration-300">
+    Send
+  </button>
+</form>
+
    
       <!-- Font Awesome (make sure this is in your <head>) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
