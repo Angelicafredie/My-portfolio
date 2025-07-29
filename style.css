@@ -1,0 +1,139 @@
+/* style.css */
+.glow-skill {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0px transparent;
+  cursor: pointer;
+}
+
+.glow-skill:hover {
+  box-shadow: 0 0 10px rgba(2, 253, 253, 0.8), 0 0 20px rgba(2, 253, 253, 0.8); /* orange glow */
+  transform: scale(1.05);
+}
+
+/* Navbar link glow on hover */
+nav a:hover {
+  color: #0cefff; /* orange-400 */
+  text-shadow: 0 0 8px rgba(2, 253, 253, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* Glowing card hover effect */
+.glow-card {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+
+.glow-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(2, 253, 253, 0.8); /* orange */
+}
+
+/* Glowing input focus */
+.glow-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px 2px rgba(2, 253, 253, 0.8); /* orange */
+  border-color: #00ccff; /* orange-400 */
+}
+
+/* Global font and base styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #0f172a; /* dark navy background */
+  color: #e2e8f0; /* light gray text */
+}
+
+/* Smooth scroll for internal links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section padding adjustments for better spacing */
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Rounded profile image */
+img.rounded-full {
+  border-radius: 9999px;
+}
+
+/* Custom card hover effect for projects */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 115, 0, 0.15); /* softer orange-tinted shadow */
+}
+
+.glow-card {
+  animation: neon-glow 2s infinite alternate;
+}
+
+@keyframes neon-glow {
+  from {
+    box-shadow: 0 0 10px #00f0ff;
+  }
+  to {
+    box-shadow: 0 0 20px #00f0ff;
+  }
+}
+
+/* Center text in smaller devices */
+@media (max-width: 768px) {
+  h1, h2, h3, p, .text-center {
+    text-align: center;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Contact link styles */
+a {
+  text-decoration: none;
+  color: #0fefff; /* orange-400 */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Custom button enhancements */
+button,
+a.button {
+  transition: background-color 0.3s ease;
+  background-color: #0fefff; /* orange-500 */
+  color: white;
+}
+
+button:hover,
+a.button:hover {
+  background-color: #0fefff; /* orange-400 */
+}
+.glow-card {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+.glow-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(2, 253, 253, 0.8); /* orange glow */
+}
+.glow-card {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+.glow-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(2, 253, 253, 0.8); /* orange glow */
+}

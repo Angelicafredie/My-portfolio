@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelica | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .glow-skill:hover,
+    .hover\:text-white:hover,
+    .glow-input:focus {
+      box-shadow: 0 0 8px #02d9ff, 0 0 16px #02d9ff;
+      outline: none;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-orange-400">
+  <!-- Navbar -->
+
+<nav class="bg-gray-900 text-white px-4 py-3 sticky top-0 z-50 shadow-md">
+  <div class="container mx-auto flex flex-wrap items-center justify-between">
+    <a href="#" class="text-xl font-bold text-white">Angelica 👋</a>
+    <div class="flex flex-wrap gap-4 text-sm mt-2 sm:mt-0">
+      <a href="#home" class="hover:text-orange-300 transition-all duration-200">Home</a>
+      <a href="#about" class="hover:text-orange-300 transition-all duration-200">About</a>
+      <a href="#skills" class="hover:text-orange-300 transition-all duration-200">Skills</a>
+      <a href="#projects" class="hover:text-orange-300 transition-all duration-200">Projects</a>
+      <a href="#experience" class="hover:text-orange-300 transition-all duration-200">Experience</a>
+      <a href="#contact" class="hover:text-orange-300 transition-all duration-200">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Home Section -->
+  <!-- Add Font Awesome to your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section id="home" class="text-center bg-gray-900 py-12 px-4">
+  <img src="Angli's pic.jpg" alt="Deena"
+    class="mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-orange-500 shadow-lg mb-4" />
+
+  <h2 class="text-2xl font-semibold text-white">
+  I’m a <span id="typed-text" class="text-[#00f0ff]"></span><span id="cursor" class="text-[#00f0ff]">|</span>
+</h2>
+
+
+  <p class="text-base md:text-lg text-blue-300 mt-2">
+    Python Developer | Cloud Enthusiast
+  </p>
+
+  <p class="text-base md:text-xl text-gray-200 mt-6 max-w-2xl mx-auto leading-relaxed font-medium px-2">
+  <span class="text-[#00f0ff] font-semibold">I'm Angelica</span>, a passionate Python and Cloud Developer with a strong foundation in scalable architecture and system design.
+  I specialize in building secure, efficient backend systems and deploying cloud-native applications using modern DevOps practices.
+  With a focus on <span class="text-[#00f0ff]">clean, optimized code</span> and <span class="text-[#00f0ff]">cloud-driven performance</span>, I turn complex challenges into seamless digital solutions.
+</p>
+
+<!-- Font Awesome CDN (place this in your <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Tailwind CSS CDN (also place this in your <head>) -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- Social Media Icons -->
+<div class="mt-8 flex justify-center space-x-6 text-2xl">
+  <!-- GitHub -->
+  <a href="https://github.com/deena0506" target="_blank"
+     class="bg-orange-500 text-white p-4 rounded-lg shadow-lg font-semibold
+            transition-transform duration-300 ease-in-out transform 
+            hover:scale-110 hover:text-white hover:shadow-[0_0_20px_#fb923c]">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/angelicafredie" target="_blank"
+     class="bg-orange-500 text-white p-4 rounded-lg shadow-lg font-semibold
+            transition-transform duration-300 ease-in-out transform 
+            hover:scale-110 hover:text-white hover:shadow-[0_0_20px_#fb923c]">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/angelica_fredie?igsh=MXM3NnlwZnhwOTd1bg==" target="_blank"
+     class="bg-orange-500 text-white p-4 rounded-lg shadow-lg font-semibold
+            transition-transform duration-300 ease-in-out transform 
+            hover:scale-110 hover:text-white hover:shadow-[0_0_20px_#fb923c]">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:angelicafredie@gmail.com"
+     class="bg-orange-500 text-white p-4 rounded-lg shadow-lg font-semibold
+            transition-transform duration-300 ease-in-out transform 
+            hover:scale-110 hover:text-white hover:shadow-[0_0_20px_#fb923c]">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+
+<!-- Download Resume Button (Centered Below Icons) -->
+<div class="mt-8 flex justify-center">
+  <a href="Angelica BTech IT.pdf" download
+     class="bg-orange-500 text-white font-semibold py-3 px-8 rounded-lg shadow-lg 
+            transition-transform duration-300 ease-in-out transform 
+            hover:scale-110 hover:text-white hover:shadow-[0_0_20px_#fb923c]">
+    Download Resume
+  </a>
+</div>
+
+</section>
+
+<section id="about" class="bg-gray-950 text-white py-16 px-4">
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl">
+    
+    <!-- Image Section -->
+    <div class="w-full md:w-1/2">
+      <img src="Angli.jpeg" alt="About Me"
+        class="rounded-2xl shadow-2xl border-4 border-orange-500 mx-auto w-48 h-48 md:w-64 md:h-64 object-cover hover:scale-105 transition-transform duration-500" />
+    </div>
+
+    <!-- Text Section -->
+    <div class="w-full md:w-1/2 text-center md:text-left">
+      <h2 class="text-3xl md:text-4xl font-bold text-orange-400 mb-4">About Me</h2>
+      <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+        Recent graduate from <span class="text-orange-300 font-semibold">CSI College of Engineering</span> with a degree in Information Technology.
+        A motivated and adaptable individual with a strong passion for technology and a keen interest in launching a career in the tech industry.
+      </p>
+      <p class="mt-4 text-md md:text-lg text-blue-300">
+        Committed to continuous learning and professional growth. Strong believer in teamwork and collaboration, with the ability to contribute effectively to group efforts and organizational goals.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- Skills Section -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section id="skills" class="py-12 px-4 container mx-auto bg-gray-800 rounded-lg">
+  <h2 class="text-2xl font-semibold mb-6 text-center text-[#00f0ff]">Skills</h2>
+  <div class="flex flex-wrap justify-center gap-8 text-center">
+
+    <!-- Python -->
+    <div class="flex flex-col items-center space-y-2">
+      <span class="px-5 py-4 bg-[#003b47] rounded-full glow-skill flex items-center justify-center w-20 h-20">
+        <i class="fab fa-python text-4xl text-[#00f0ff]"></i>
+      </span>
+      <p class="text-[#00f0ff] font-medium">Python</p>
+    </div>
+
+    <!-- Cloud Computing -->
+    <div class="flex flex-col items-center space-y-2">
+      <span class="px-5 py-4 bg-[#003b47] rounded-full glow-skill flex items-center justify-center w-20 h-20">
+        <i class="fas fa-cloud text-3xl text-[#00f0ff]"></i>
+      </span>
+      <p class="text-[#00f0ff] font-medium">Cloud</p>
+    </div>
+
+    <!-- DevOps -->
+    <div class="flex flex-col items-center space-y-2">
+      <span class="px-5 py-4 bg-[#003b47] rounded-full glow-skill flex items-center justify-center w-20 h-20">
+        <img src="https://cdn-icons-png.flaticon.com/512/5969/5969069.png" alt="DevOps" class="w-8 h-8 filter drop-shadow-lg">
+      </span>
+      <p class="text-[#00f0ff] font-medium">DevOps</p>
+    </div>
+
+    <!-- IoT -->
+    <div class="flex flex-col items-center space-y-2">
+      <span class="px-5 py-4 bg-[#003b47] rounded-full glow-skill flex items-center justify-center w-20 h-20">
+        <img src="https://cdn-icons-png.flaticon.com/512/3215/3215538.png" alt="IoT" class="w-8 h-8 filter drop-shadow-lg">
+      </span>
+      <p class="text-[#00f0ff] font-medium">IoT</p>
+    </div>
+
+    <!-- Database -->
+    <div class="flex flex-col items-center space-y-2">
+      <span class="px-5 py-4 bg-[#003b47] rounded-full glow-skill flex items-center justify-center w-20 h-20">
+        <i class="fas fa-database text-3xl text-[#00f0ff]"></i>
+      </span>
+      <p class="text-[#00f0ff] font-medium">Database</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+
+<section id="projects" class="py-12 px-4 container mx-auto bg-gray-900">
+  <h2 class="text-2xl font-semibold mb-6 text-center text-[#00f0ff]">Projects</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center">
+    
+    <div class="bg-gray-800 p-6 rounded-lg shadow-[0_0_15px_##003b47] glow-card w-full max-w-sm transition-transform hover:shadow-[0_0_25px_#00f0ff] hover:scale-105">
+      <h3 class="text-lg font-bold text-[#00f0ff]">Webtrace – Automated Hate Speech Detection</h3>
+      <p class="text-blue-200">Project involves WebTrace, an automated content moderation
+      framework developed to detect and respond to hate speech on Instagram. The goal is to create a real-time, AI-powered system capable
+      of identifying offensive content embedded in both text and images.</p>
+    </div>
+
+    <div class="bg-gray-800 p-6 rounded-lg shadow-[0_0_15px_##003b47] glow-card w-full max-w-sm transition-transform hover:shadow-[0_0_25px_#00f0ff] hover:scale-105">
+      <h3 class="text-lg font-bold text-[#00f0ff]">GIS – Gesture Identification System (Ooty)</h3>
+      <p class="text-blue-200">Developed a hand gesture recognition system for video control using sensors. Implemented human hand motion recognition using Convolutional Neural Networks (CNN).</p>
+    </div>
+
+    <div class="bg-gray-800 p-6 rounded-lg shadow-[0_0_15px_##003b47] glow-card w-full max-w-sm transition-transform hover:shadow-[0_0_25px_#00f0ff] hover:scale-105">
+      <h3 class="text-lg font-bold text-[#00f0ff]">House Price Prediction</h3>
+      <p class="text-blue-200">Developed a machine learning model using Python and Scikit-learn to predict house prices based on features like location, size, and amenities. Optimized and trained on real-world datasets for high-accuracy forecasting.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Experience Section -->
+<section id="experience" class="py-12 px-4 container mx-auto bg-gray-900">
+  <h2 class="text-2xl font-semibold mb-6 text-center text-orange-300">Experience</h2>
+  <div class="space-y-6">
+    <div class="flex flex-wrap items-center gap-4 bg-gray-800 p-4 rounded-lg shadow-md glow-card">
+      <img src="co.png" alt="Cognifyz" class="w-16 h-16 object-contain" />
+      <div>
+        <h3 class="text-lg font-bold text-orange-400">Python Development Intern</h3>
+        <p class="text-orange-300">Cognifyz Technologies: July - Present</p>
+      </div>
+    </div>
+    <div class="flex flex-wrap items-center gap-4 bg-gray-800 p-4 rounded-lg shadow-md glow-card">
+      <img src="NANDHA INFOTECH.avif" alt="nandha" class="w-16 h-16 object-contain" />
+      <div>
+        <h3 class="text-lg font-bold text-orange-400">Full Stack Web Development Intern</h3>
+        <p class="text-orange-300">Nandha Infotech: February 2023</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-4 container mx-auto bg-gray-800 rounded-lg">
+    <h2 class="text-2xl font-semibold mb-6 text-center text-orange-300">Contact</h2>
+    <form class="max-w-md mx-auto">
+      <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500" />
+      <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500" />
+      <textarea placeholder="Your Message" class="w-full p-3 mb-4 rounded glow-input bg-gray-900 text-orange-400 border border-orange-500"></textarea>
+      <button type="submit" class="px-6 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600">Send</button>
+    </form>
+   
+      <!-- Font Awesome (make sure this is in your <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Contact Icons Row -->
+<div class="flex justify-center space-x-6 mt-4 text-2xl">
+  <!-- Mobile -->
+  <a href="tel:+91 8610481531" target="_blank"
+     class="text-orange-400 hover:text-white hover:shadow-[0_0_20px_#fb923c] transition-all duration-300 p-2 rounded-full">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:angelicafredie@gmail.com" target="_blank"
+     class="text-orange-400 hover:text-white hover:shadow-[0_0_20px_#fb923c] transition-all duration-300 p-2 rounded-full">
+    <i class="fas fa-envelope"></i>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/deena0506" target="_blank"
+     class="text-orange-400 hover:text-white hover:shadow-[0_0_20px_#fb923c] transition-all duration-300 p-2 rounded-full">
+    <i class="fab fa-github"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/deenadhayal-k-a-906359232" target="_blank"
+     class="text-orange-400 hover:text-white hover:shadow-[0_0_20px_#fb923c] transition-all duration-300 p-2 rounded-full">
+    <i class="fab fa-linkedin"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/rj_deenadhayal?igsh=cHM0ZWZ6eWR3OXlu" target="_blank"
+     class="text-orange-400 hover:text-white hover:shadow-[0_0_20px_#fb923c] transition-all duration-300 p-2 rounded-full">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div> 
+  </section>
+
+<script>
+  const titles = ["Python Developer", "Cloud Enthusiast"];
+  let i = 0;
+  let j = 0;
+  let isDeleting = false;
+  let current = "";
+  let pauseEnd = false;
+
+  function typeEffect() {
+    const typedText = document.getElementById("typed-text");
+    current = titles[i % titles.length];
+
+    if (!isDeleting) {
+      typedText.textContent = current.substring(0, j++);
+    } else {
+      typedText.textContent = current.substring(0, j--);
+    }
+
+    let speed = isDeleting ? 70 : 100;
+
+    if (!isDeleting && j === current.length + 1 && !pauseEnd) {
+      pauseEnd = true;
+      setTimeout(() => {
+        isDeleting = true;
+        pauseEnd = false;
+        typeEffect();
+      }, 1500); // Pause before deleting
+      return;
+    }
+
+    if (isDeleting && j === 0) {
+      isDeleting = false;
+      i++;
+    }
+
+    setTimeout(typeEffect, speed);
+  }
+
+  // Blinking cursor effect
+  setInterval(() => {
+    const cursor = document.getElementById("cursor");
+    cursor.style.visibility = cursor.style.visibility === "hidden" ? "visible" : "hidden";
+  }, 500); // blink every 0.5s
+
+  document.addEventListener("DOMContentLoaded", typeEffect);
+</script>
+
+</body>
+
+</html>
